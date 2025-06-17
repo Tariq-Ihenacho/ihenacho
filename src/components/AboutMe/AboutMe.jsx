@@ -9,16 +9,16 @@ const AboutMe = () => {
   return (
     <div className="relative bg-white text-black w-full -z-0">
       <div className="bg-[url('/images/iii.jpg')] bg-cover bg-center h-auto w-full text-white relative">
-        <div className="absolute inset-0 bg-black opacity-65 z-0"></div>{" "}
-        <div className="h-screen container mx-auto px-4 flex flex-col justify-center md:flex-row items-center relative z-10">
-          <div className="text-container px-[150px]">
+        <div className="absolute inset-0 bg-black opacity-65 z-0"></div>
+        <div className="h-screen container mx-auto px-4 flex flex-col md:flex-row items-center justify-center relative z-10 gap-8 md:gap-20">
+          <div className="text-container text-center md:text-left max-w-lg">
             <h2 className="text-xl font-light text-white">Hello, my name is</h2>
             <p className="text-4xl font-bold text-yellow-600">
               EMMANUEL <br />
               IHENACHO. <br />
               <span className="font-medium text-3xl">(TariQ)</span>
             </p>
-            <h3 className="text-xl font-light text-white">
+            <h3 className="text-xl font-light text-white mt-2">
               I'm an IT Project Manager <br />
               and the founder of TariQ Tech.
             </h3>
@@ -31,15 +31,16 @@ const AboutMe = () => {
             </a>
           </div>
 
-          <div className="photo-container px-[150px]">
+          <div className="photo-container">
             <img
               src="/images/Profilephoto.jpg"
-              alt=""
-              className="w-44 h-44 rounded-full"
+              alt="Emmanuel Ihenacho"
+              className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover shadow-lg"
             />
           </div>
         </div>
       </div>
+
       <div className="px-10">
         <br />
         <p className="text-base sm:text-base text-justify lg:text-lg font-light text-black">
@@ -369,9 +370,9 @@ const projects = [
   },
   {
     id: 3,
-    title: "TariQ Portfolio Website",
+    title: "Ihenacho, Emmanuel",
     image: "/images/tttt.png",
-    url: "#",
+    url: "https://ihenacho.vercel.app",
     tech: ["Vite", "React", "Tailwind CSS"],
   },
 ];
