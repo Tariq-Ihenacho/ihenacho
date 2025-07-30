@@ -25,7 +25,7 @@ const Footer = () => {
                 <Link to={"https://www.instagram.com/_ihenacho"}>
                   <InstagramOutlined className="mr-2" />
                 </Link>
-                <Link to={"https://www.instagram.com/_ihenacho"}>
+                <Link to={"https://x.com/utdtariq"}>
                   <XOutlined className="mr-2" />
                 </Link>
                 <Link to={"https://github.com/Tariq-Ihenacho"}>
