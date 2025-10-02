@@ -336,7 +336,7 @@ const AboutMe = () => {
                     ihenachoemma2512@gmail.com
                   </a>
                 </p>
-                <p className="text-lg">📞 Phone: +44-78811-79898</p>
+                {/*<p className="text-lg">📞 Phone: +44-78811-79898</p>*/}
               </div>
             </div>
 
