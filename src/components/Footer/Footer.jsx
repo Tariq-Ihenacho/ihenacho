@@ -4,7 +4,7 @@ import {
   LinkedinFilled,
   XOutlined,
 } from "@ant-design/icons";
-import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
+import { FaLocationDot, /*FaPhoneVolume*/ } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -48,10 +48,10 @@ const Footer = () => {
                 Email: ihenachoemma2512@gmail.com
               </span>
             </p>
-            <p className="text-black font-semibold flex items-center mb-2">
+            {/*<p className="text-black font-semibold flex items-center mb-2">
               <FaPhoneVolume className="mr-2 text-black" />
               <span className="text-black">Call: +44-78811-79898</span>
-            </p>
+            </p>*/}
           </div>
         </div>
         <div className="flex justify-between items-center text-sm">
