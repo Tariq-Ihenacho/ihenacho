@@ -109,13 +109,14 @@ const AboutMe = () => {
               </div>
               <h3 className="text-lg font-semibold text-black">Express Tank</h3>
               <p className="text-sm text-gray-700 italic mb-2">
-                IT Project Manager
+                Junior IT Project Manager
               </p>
               <p className="text-sm text-gray-800 mb-4">
                 Documentation of project briefs and business case(s) to
                 stakeholders and investors.
                 <br />
-                Overseeing project execution and team coordination.
+                Directed 40% of overall project execution, resulting in a 20%
+                improvement in project delivery efficiency.
                 <br />
                 Planning, Budgeting, Risk Management, Team Co-ordination,
                 Quality Assurance, and Documentation of the entire project from
@@ -150,11 +151,11 @@ const AboutMe = () => {
                 PrimeFitAuto Parts
               </h3>
               <p className="text-sm text-gray-700 italic mb-2">
-                Web Developer & IT Project Manager
+                Front-end/Web Developer
               </p>
               <p className="text-sm text-gray-800 mb-4">
-                Analyzed system requirements, designed, developed and managed
-                company website.
+                Designed, developed, and managing companies’ website. Increased
+                user retention by 20% as a result of improved site performance.
                 <br />
                 Involved constant communication, video conferences, feedback,
                 live updates to approve significant implementations and changes.
@@ -188,12 +189,12 @@ const AboutMe = () => {
                 Aug 2024 – Oct 2024
               </div>
               <h3 className="text-lg font-semibold text-black">
-                Peacevilla Empowerment Foundation
+                Peacevilla Empowerment Foundation (NGO)
               </h3>
               <p className="text-sm text-gray-700 italic mb-2">Web Developer</p>
               <p className="text-sm text-gray-800 mb-4">
-                Analyzed system requirements, designed, developed and deployed
-                compamy website.
+                Analyzed system requirements, designed, developed and manage
+                company website. Improved site performance by 70%.
                 <br />
                 Website was developed to provide information about the
                 foundation's mission, vision, and activities, as well as to
@@ -265,7 +266,7 @@ const AboutMe = () => {
               <h3 className="text-lg font-semibold text-black">
                 Corporate Affairs Commission
               </h3>
-              <p className="text-sm text-gray-700 italic mb-2">Intern</p>
+              <p className="text-sm text-gray-700 italic mb-2">IT Intern</p>
               <p className="text-sm text-gray-800 mb-4">
                 Gained foundational knowledge and hands-on experience in IT
                 operations, troubleshooting, and system maintenance
@@ -301,7 +302,7 @@ const AboutMe = () => {
           <button>
             <Link
               to={
-                "https://drive.google.com/file/d/1Ni_5877UagLQ1pRCDyhJ3qgszf1G8ORc/view?usp=sharing"
+                "https://drive.google.com/file/d/1haxgtMB3f7_gHWkD__335A8l2drUwSr6/view?usp=drive_link"
               }
             >
               <span className="text-lg underline font-semibold text-black hover:text-emerald-400 hover:text-xl">
